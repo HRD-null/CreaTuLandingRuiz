@@ -5,6 +5,7 @@ const NavBar = () => {
     return (
         <header className="navbar">
             <div className="logo">
+                <img src="/img/imagen10.png" alt="Logo de la tienda" className="store-logo" />
                 <h1>CatShop</h1>
             </div>
             <nav className="menu">
