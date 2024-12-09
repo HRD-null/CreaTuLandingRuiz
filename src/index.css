@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header.navbar {
+    background-color: #ffeeba;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #444;
+}
+
+header .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #007BFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header .menu ul li a:hover {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.cart-widget {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart-widget .cart-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.cart-widget .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #f0ad4e;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 50%;
+}
+
+.item-list-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.item-list-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.item-list-container p {
+    font-size: 1rem;
+    color: #666;
+}
