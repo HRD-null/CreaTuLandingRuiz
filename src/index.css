@@ -122,3 +122,39 @@ header .menu ul li a:hover {
     background-color: #f0ad4e;
     color: white;
 }
+
+.categories {
+    margin-top: 2rem;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.categories h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories ul li {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.categories ul li:hover {
+    background-color: #ffeeba;
+    color: #333;
+    cursor: pointer;
+}
